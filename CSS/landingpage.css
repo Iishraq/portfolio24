@@ -1,0 +1,803 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+}
+.NavBar{
+   position: fixed;
+   width: 100%;
+   font-family:'Roboto', sans-serif;    
+   padding: 20px;
+   background-color: rgb(255, 255, 2);
+   contain: content;
+}
+.NavBar .logo{
+    float: left;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+}
+.NavBar .logo i{
+    font-size: 25px;
+    rotate: 180deg;
+    color: black;
+    margin-right: 10px;
+}
+.NavBar .signup{
+    float: right;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: black;
+    border-radius: 8px;
+    color:white;
+    padding: 8px 10px;
+}
+ /* section */
+ .header{
+   margin-top: 0px;
+   font-family: 'Roboto', sans-serif;
+   text-align: center;
+   padding: 140px 300px;
+ }
+ .header h1{
+   font-weight: 400;
+   font-size: 80px;
+ }
+ .header p{
+    font-size: 20px;
+ }
+ .banner{
+    margin-top: 70px;
+    padding: 0px 100px;
+    height: 500px;
+    /* contain: content; */
+ }
+ .banner .text{
+    width: 50%;
+    float: left;
+    background-color: #01796f;
+    height: inherit;
+    border-radius: 10px 0px 0px 10px;
+}
+.banner .text .hey{
+   display: grid;
+   justify-content: center;
+   align-items: center;
+   padding: 100px 60px;
+   font-family:inherit;
+   font-size: 33px;
+   color: white;
+}
+.banner .text button{
+   padding: 5px 5px;
+   color: black;
+   background-color: goldenrod;
+   font-size: 25px;
+   font-weight: bold;
+   border: none;
+   border-radius: 8px;
+   cursor: pointer;
+}
+ .btn{
+   display: flex;
+   column-gap: 10px;
+ }
+ .btn h4{
+   font-size: 12px;
+ }
+.banner .image{
+    width: 50%;
+    float: right;
+    /* background-color: aqua; */
+    height: inherit;
+    overflow: hidden;
+    border-radius: 0px 10px 10px 0px;
+}
+.banner img .image{
+    height: inherit;
+    width: 100%;
+    
+}
+
+
+.profile{
+   margin-top: 80px;
+   text-align: center;
+}
+a.getStarted{
+   background-color: #090909;
+   text-decoration: none;
+   color: white;
+   padding: 15px 25px;
+   border-radius: 14px;
+   font-weight: 500;
+}
+.profile .dMContainer{
+   margin-top: 100px;
+   padding: 0px 300px;
+}
+.profile .dMContainer q{
+   font-size: 34px;
+}
+.dMContainer figure{
+   margin-top: 40px;
+}
+.dMContainer figure img{
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+}
+.dMContainer figure figcaption b{
+   font-size: 18px;
+}
+.dMContainer figure figcaption p{
+   font-weight: 450;
+}
+
+.content{
+   background-color: rgb(252, 250, 248);
+   contain: content;
+   padding: 60px 0px;
+   margin-top: 60px;
+}
+.content .container1{
+   contain: content;
+}
+.content .container1 .imageBox{
+   width: 50%;
+   float: left;
+   text-align: center;
+}
+.content .container1 .imageBox h3{
+   font-weight: normal;
+   margin-bottom: 30px;
+   display: none;
+}
+.content .container1 .imageBox img{
+   width: 75%;
+}
+.content .container1 .textBox{
+   width: 50%;
+   float: right;
+   padding: 0px 150px 0px 70px;
+}
+.content .container1 .textBox h1{
+   font-size: 45px;
+   font-weight: 450;
+   margin-top: 150px;
+}
+.content .container1 .textBox span{
+   font-size: 22px;
+   font-weight: 450;
+   color: #4B4B4B;
+}
+
+.content .container2{
+   contain: content;
+   margin-top: 70px;
+}
+.content .container2 .textBox{
+   width: 50%;
+   float: left;
+   padding: 0px 150px 0px 70px;
+}
+.content .container2 .textBox h1{
+   font-size: 45px;
+   font-weight: 450;
+   margin-top: 180px;
+}
+.content .container2 .textBox span{
+   font-size: 20px;
+   font-weight: 450;
+   color: #4B4B4B;
+}
+.content .container2 .imageBox{
+   width: 50%;
+   float: right;
+   text-align: center;
+}
+.content .container2 .imageBox span{
+   font-size: 16px;
+   font-weight: 500;
+   display: none;
+}
+.content .container2 .imageBox img{
+   width: 75%;
+}
+
+.content .container3{
+   contain: content;
+   margin-top: 150px;
+}
+.content .container3 .imageBox{
+   width: 50%;
+   float: left;
+   text-align: center;
+}
+.content .container3 .imageBox h3{
+   font-weight: normal;
+   margin-bottom: 30px;
+   display: none;
+}
+.content .container3 .imageBox img{
+   width: 75%;
+}
+.content .container3 .textBox{
+   width: 50%;
+   float: right;
+   padding: 0px 150px 0px 70px;
+}
+.content .container3 .textBox h1{
+   font-size: 45px;
+   font-weight: 450;
+   margin-top: 150px;
+}
+.content .container3 .textBox span{
+   font-size: 22px;
+   font-weight: 450;
+   color: #4B4B4B;
+}
+.content .buttonBox{
+   text-align: center;
+   margin-top: 100px;
+}
+
+.automate{
+   margin-top: 60px;
+   contain: content;
+}
+.automate .textBox{
+   width: 50%;
+   float: left;
+   padding: 0px 150px 0px 70px;
+}
+.automate .textBox h1{
+   font-size: 45px;
+   font-weight: 450;
+   margin-top: 30px;
+}
+.automate .textBox span{
+   font-size: 20px;
+   font-weight: 450;
+   color: #484848;
+}
+.automate .imageBox{
+   width: 50%;
+   float: left;
+   text-align: center;
+}
+.automate .imageBox img{
+   width: 75%;
+}
+.automate .imageBox span{
+   display: none;
+}
+.director{
+   margin-top: 80px;
+   text-align: center;
+}
+.director .container{
+   margin-top: 100px;
+   padding: 0px 250px;
+}
+.director .container q{
+   font-size: 34px;
+}
+.director .container figure{
+   margin-top: 43px;
+}
+.director .container figure img{
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+}
+.director .container figure figcaption b{
+   font-size: 18px;
+}
+.director .container figure figcaption p{
+   font-weight: 450
+}
+.launch{
+   margin-top: 60px;
+   text-align: center;
+   background-color: rgb(252, 250, 248);
+   padding: 100px 100px;
+}
+.launch h1{
+   font-family:sans-serif; 
+   margin-bottom:60px;
+}
+.bottom{
+   margin-top: 200px;
+   background-color: #090909;
+   display: flex;
+   column-gap: 30px;
+   padding: 20px;
+   contain: content;
+}
+.bottom .foot{
+   width: 20%;
+   float: left;
+   display: flex;
+   column-gap: 10px;
+}
+.bottom .foot i{
+   color: aliceblue;
+}
+.bottom .foot h3{
+   text-transform:capitalize;
+   font-size: 14px;
+   color: aliceblue;
+}
+.bottom .global{
+   width: 10%;
+   font-size: 14px;
+   background: #090909;
+   border:none;
+}
+.bottom .global i{
+   color: aliceblue;
+}
+.bottom .global select{
+   border: none;
+   color: aliceblue;
+   background: #090909;
+
+}
+.bottom .global select option{
+   color: aliceblue;
+   /* border: none; */
+   font-size: 14px;
+   text-transform: capitalize;
+}
+.bottom .links{
+   width: 50%;
+}
+.bottom .links a{
+   color: aliceblue;
+   font-size: 16px;
+   font-weight: 400;
+   text-decoration: underline;
+}
+.bottom .form-type{
+   width: 15%;
+}
+.bottom .form-type h3{
+   font-size: 16px;
+   color: aliceblue;
+   float: right;
+}
+
+@media(max-width:1200px){
+   .header{
+      height: 400px;
+      /* margin-top: 50px; */
+      padding: 0px 250px;
+     }
+   .header h1{
+      font-weight: 400;
+      font-size: 70px;
+     }
+   .header p{
+      font-size: 20px;
+     }
+   .banner{
+      margin-top: 60px;
+      padding: 0px 50px;
+     }
+   .profile{
+      margin-top: 370px;
+  }
+  a.getStarted{
+      padding: 13px 23px;
+  }
+  .profile .dMContainer{
+      margin-top: 85px;
+      padding: 0px 170px;
+  }
+  .profile .dMContainer q{
+      font-size: 32px;
+  }
+  .dMContainer figure figcaption b{
+      font-size: 16px;
+  }
+  .dMContainer figure figcaption p{
+      font-size: 14px;
+  }
+  .content .container1 .imageBox{
+      width: 100%;
+      float: none;
+      margin-bottom: 30px;
+  }
+  .content .container1 .imageBox h3{
+      display: block;
+  }
+  .content .container1 .imageBox img{
+      width: 70%;
+  }
+  .content .container1 .textBox{
+      width: 100%;
+      float: none;
+      padding: 0px 190px;
+      text-align: center;
+  }
+  .content .container1 .textBox h1{
+      display: none;
+  }
+  .content .container1 .textBox span{
+      font-size: 16px;
+      font-weight: 500;
+  }
+  .content .container2 .textBox{
+      width: 100%;
+      float: none;
+      padding: 0px 190px;
+  }
+  .content .container2 .textBox h1{
+      font-size: 30px;
+      font-weight: 450;
+      margin-top: 50px;
+      text-align: center;
+  }
+  .content .container2 .textBox span{
+      display: none;
+  }
+  .content .container2 .imageBox{
+      width: 100%;
+      float: none;
+  }
+  .content .container2 .imageBox img{
+      width: 70%;
+  }
+  .content .container2 .imageBox span{
+      padding: 0px 190px;
+      display: block;
+      margin-top: 30px;
+  }
+  .content .container3 .imageBox{
+      width: 100%;
+      float: none;
+      margin-bottom: 30px;
+  }
+  .content .container3 .imageBox h3{
+      display: block;
+  }
+  .content .container3 .imageBox img{
+      width: 70%;
+  }
+  .content .container3 .textBox{
+      width: 100%;
+      float: none;
+      padding: 0px 190px;
+      text-align: center;
+  }
+  .content .container3 .textBox h1{
+      display: none;
+  }
+  .content .container3 .textBox span{
+      font-size: 16px;
+      font-weight: 500;
+  }
+   .automate .textBox{
+      width: 100%;
+      float: none;
+      padding: 0px 190px;
+   }
+   .automate .textBox h1{
+      font-size: 30px;
+   }
+   .automate .textBox span{
+      display: none;
+   }
+   .automate .imageBox{
+      width: 100%;
+      float: none;
+   }
+   .automate .imageBox img{
+   width: 70%;
+   }
+   .director{
+      margin-top: 60px;
+   }
+   .director .container{
+      margin-top: 85px;
+      padding: 0px 100px;
+   }
+   .director .container q{
+      font-size: 32px;
+   }
+   .director .container figure figcaption b{
+      font-size: 16px;
+   }
+   .director .container figure figcaption p{
+      font-size: 14px;
+   }
+   .launch{
+      margin-top: 45px;
+      padding: 70px 70px;
+   }
+   .launch h1{
+      font-size:33px ;
+      margin-bottom: 45px;
+   }
+   .bottom{
+      width: 100%;
+      margin-top: 200px;
+      background-color: #090909;
+      display: flex;
+      column-gap: 30px;
+      padding: 20px;
+      contain: content;
+   }
+}  
+ 
+@media(max-width:1000px){
+   .header{
+      margin-top: 0px;
+      padding-top: 80px;
+     }
+   .header h1{
+        font-weight: 400;
+        font-size: 45px;
+     }
+   .header p{
+      font-size: 21px;
+     }
+   .banner{
+      height: 400px;
+      /* margin-top: 10px; */
+      padding: 0px 30px;
+      /* contain: content; */
+     }
+   .banner .text{
+      width: 50%;
+      float: left;
+      background-color: #01796f;
+      height: inherit;
+      overflow: hidden;
+      border-radius: 10px 0px 0px 10px;
+    }
+    .banner .image{
+      width: 50%;
+      float: right;
+      /* background-color: aqua; */
+      height: inherit;
+      overflow: hidden;
+      border-radius: 0px 10px 10px 0px;
+    }
+    .banner img .image{
+      float: right;
+      height: inherit;
+      width: 50%;
+      
+    }  
+
+  .banner .text .hey{
+     display: grid;
+     justify-content: center;
+     align-items: center;
+     padding: 100px 60px;
+     font-family:inherit;
+     font-size: 30px;
+     color: white;
+  }
+  .banner .text button{
+     padding: 5px 5px;
+     color: black;
+     background-color: goldenrod;
+     font-size: 22px;
+     font-weight: bold;
+     border: none;
+     border-radius: 8px;
+     cursor: pointer;
+  }
+   .btn{
+     display: flex;
+     column-gap: 10px;
+   }
+   .btn h4{
+     font-size: 12px;
+   }
+   .profile{
+      margin-top: 170px;
+  }
+  .profile .dMContainer{
+      padding: 0px 100px;
+  }
+  .profile .dMContainer q{
+      font-size: 30px;
+  }
+  .dMContainer figure figcaption b{
+      font-size: 14px;
+  }
+  .dMContainer figure figcaption p{
+      font-size: 13px;
+  }
+  .content .container1 .textBox{
+      padding: 0px 120px;
+  }
+  .content .container2 .textBox{
+      padding: 0px 120px;
+  }
+  .content .container2 .imageBox span{
+      padding: 0px 120px;
+  }
+  .content .container3 .textBox{
+      padding: 0px 120px;
+  }
+   .automate .textBox{
+      padding: 0px 120px;
+
+   }
+   .automate .imageBox span{
+      padding: 0px 120px;
+   }
+   .director{
+      margin-top: 60px;
+   }
+   
+   .director .container q{
+      font-size: 30px;
+   }
+   .director .container figure figcaption b{
+      font-size: 14px;
+   }
+   .director .container figure figcaption p{
+      font-size: 13px;
+   }
+   .launch{
+      margin-top: 40px;
+      padding: 60px 50px;
+   }
+   .launch h1{
+      font-size:33px ;
+      margin-bottom: 40px;
+   }
+   .foot .global{
+      width: 5%;
+      display: flex;
+   }
+   
+}
+
+@media(max-width:700px){
+   .header{
+      margin-top: 0px;
+      padding:130px 100px;
+   }
+   .header h1{
+      font-weight: 400;
+      font-size: 30px;
+   }
+   .header p{
+      font-size: 20px;
+   }
+   .banner{  
+      height: 300px;
+      margin-bottom: 50px;
+      padding: 0px 20px;
+      display: grid;
+   }
+   .banner .text{
+      width: 100%;
+      float: none;
+      order: 2;
+      border-radius: 0px 0px 10px 10px;
+   }
+  .banner .text .hey{
+     display: grid;
+     justify-content: center;
+     align-items: center;
+     padding: 50px 30px;
+     font-family:inherit;
+     font-size: 30px;
+     color: white;
+  }
+  .banner .text button{
+     padding: 2px 2px;
+     color: black;
+     background-color: goldenrod;
+     font-size: 20px;
+     font-weight: bold;
+     border: none;
+     border-radius: 8px;
+     cursor: pointer;
+  }
+   .btn{
+     display: flex;
+     column-gap: 10px;
+   }
+   .btn h4{
+     font-size: 12px;
+   }
+  .banner .image{
+      width: 100%;
+      float: none;
+      overflow: hidden;
+      order: 1;
+      border-radius: 10px 10px 0px 0px;
+  }
+  .banner img .image{
+      border-radius: 0px 0px 10px 10px;
+  }
+  .profile{
+   margin-top: 400px;
+  }
+  .profile .dMContainer{
+   margin-top: 140px;
+   padding: 0px 50px;
+   }
+   
+   .profile .dMContainer q{
+   font-size: 25px;
+   }
+   .dMContainer figure figcaption b{
+   font-size: 13px;
+   }
+   .dMContainer figure figcaption p{
+   font-size: 12px;
+   }
+   .content .container1 .imageBox img{
+   width: 90%;
+   }
+   .content .container1 .textBox{
+   padding: 0px 20px;
+   }
+   .content .container2 .textBox{
+      padding: 0px 20px;
+   }
+   .content .container2 .imageBox img{
+   width: 90%;
+   }
+   .content .container2 .imageBox span{
+   padding: 0px 20px;
+   }
+   .content .container3{
+      margin-top: 80px;
+   }
+   .content .container3 .imageBox img{
+      width: 90%;
+   }
+   .content .container3 .textBox{
+      padding: 0px 20px;
+   }
+  .automate{
+      margin-top: 0px;
+  }
+  .automate .textBox{
+      padding: 0px 20px;
+  }
+  .automate .imageBox img{
+      width: 90%;
+  }
+  .automate .imageBox span{
+      padding: 0px 20px;
+   }
+
+   .director .container{
+      padding: 0px 50px;
+   }
+   .director .container q{
+      font-size: 25px;
+   }
+   .director .container figure figcaption b{
+      font-size: 13px;
+   }
+   .director .container figure figcaption p{
+      font-size: 12px;
+   }
+   .launch{
+      margin-top: 35px;
+      padding: 50px 20px;
+   }
+   .launch h1{
+      font-size:33px ;
+      margin-bottom: 27px;
+   }
+   .foot .global .links .form-type{
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+   }
+}  

@@ -1,0 +1,499 @@
+body{
+    margin-top: 0px;
+    background-color: #0f0e0e;
+}
+
+.banner{
+    height: 350px;
+    margin-top: 100px;
+    /* anime */
+    animation-name: largebanner;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+@keyframes largebanner{
+    100%{
+        height: 400px;
+    }
+}
+.banner .textBox{
+    width: 60%;
+    height: inherit;
+    position: absolute;
+    background-color: transparent;
+    padding: 140px 150px;
+    left: 0;
+    z-index: 1;
+    
+}
+
+.banner .textBox .text{
+    /* background-color: #756e6e; */
+    color: whitesmoke;
+    display: grid;
+    line-height: 60px;
+
+    
+}
+.text .hi-text{
+    font-size: 45px;
+    text-shadow: 0px 0px 0px 50px black;
+}
+.text .the-text{
+    font-size: 50px;
+    font-weight: 600;
+    font-style:normal;
+    text-transform: capitalize;
+    text-shadow: 0px 0px 5px black;
+}
+.text .web-text{
+    font-size: 40px;
+    font-weight: 650;
+    font-style:italic;
+    border: 2px dotted #e2e2e2;
+    width: 340px;
+    padding: 0px 0px 0px 5px;
+    
+}
+.sayHi{
+    text-decoration: none;
+    background-color: whitesmoke;
+    color: #171717;
+    border-radius: 5px;
+    width: 120px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: capitalize;
+    transition: background-color 2s, color 1;
+    display: none;
+}
+a:hover{
+    color: whitesmoke;
+    background-color: #4d4d4d;
+    text-decoration: none;
+}
+.banner .imageBox{
+    position: relative;
+    width: 40%;
+    float: right;
+    height: inherit;
+    /* background-color: #756e6e; */
+}
+
+.banner .imageBox img{
+    width: 400px;
+    height: 400px;
+    margin: -10px -50px;
+    border: 2px solid whitesmoke;
+    animation-name: imageborderchange;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes imageborderchange{
+    0%{
+        border-radius: 89% 11% 28% 72% / 49% 30% 70% 51%;
+    }
+    20%{
+        border-radius: 89% 11% 70% 30% / 49% 26% 74% 51%;
+    }
+    40%{
+        border-radius: 9% 91% 70% 30% / 49% 26% 74% 51%;
+    }
+    60%{
+        border-radius: 9% 91% 70% 30% / 49% 86% 14% 51%;
+    }
+    80%{
+        border-radius: 44% 56% 86% 14% / 49% 91% 9% 51%;
+    }
+    100%{
+        border-radius: 89% 11% 28% 72% / 49% 30% 70% 51%;
+    }
+}
+
+.skills{
+    background-color: #4d4d4d;
+    padding: 20px 50px;
+    opacity: 0;
+    animation-name: showskills;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+
+}
+@keyframes showskills{
+    100%{
+        opacity: 1;
+    }
+}
+.skills .title{
+    color: whitesmoke;
+}
+.skills .container{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #e2e2e2;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.skills .container .languageImage{
+    padding:10px;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 10px;
+}
+.skills .container .languageImage img{
+    width: 250px;
+}
+.skills .languageText p{
+    padding: 50px 100px;
+    font-size: 20px;
+    font-weight: 450;
+}
+.callToAction{
+    position: relative;
+    background-color: #e2e2e2;
+    text-align: center;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+    contain: content;
+    display: none;
+}
+.callToAction .project{
+    padding: 10px 20px;
+    background-color: #e2e2e2;
+    font-weight: 450;
+    color: black;
+    border-radius: 10px;
+    float: left;
+    box-shadow: 0px 0px 10px #5a5555;
+}
+a.project:hover{
+    background-color: #a3a3a3;
+    transition: 0.3s;
+    font-weight: 500;
+    
+}
+
+.callToAction .bio{
+    padding: 10px 20px;
+    background-color:#e2e2e2;
+    color: black;
+    border-radius: 10px;
+    float: right;
+    box-shadow: 0px 0px 10px #5a5555;
+}
+a.bio:hover{
+    background-color: #a3a3a3;
+    transition: 0.3s;
+    font-weight: 500;    
+}
+footer{
+    padding: 20px;
+    color: #a3a3a3;
+    font-size: 14px;
+}
+
+
+@media (max-width: 1200px){
+    .banner{
+        height: 400px;
+        margin-top: 100px;
+        
+    }
+    .banner .textBox{
+        width: 60%;
+        height: inherit;
+        position: absolute;
+        background-color: transparent;
+        padding: 160px 100px;
+        left: 0;
+        
+    }
+    
+    .banner .textBox .text{
+        background-color: transparent;
+        color: whitesmoke;
+        display: grid;
+        line-height: 60px;
+    
+        
+    }
+    .text .hi-text{
+        font-size: 50px;
+        text-shadow: 0px 0px 0px 50px black;
+    }
+    .text .the-text{
+        font-size: 60px;
+        font-weight: 600;
+        font-style:normal;
+        text-transform: capitalize;
+        text-shadow: 0px 0px 5px black;
+    }
+    .text .web-text{
+        font-size: 45px;
+        font-weight: 650;
+        font-style:italic;
+    
+    }
+    .banner .imageBox{
+        position: relative;
+        width: 40%;
+        float: right;
+        height: inherit;
+        /* background-color: transparent; */
+    }
+    
+    .banner .imageBox img{
+        width: 450px;
+        height: 450px;
+        margin: -50px -50px;
+        background-color: transparent;
+        animation-name: imageborderchange;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+    }
+    @keyframes imageborderchange{
+        0%{
+            border-radius: 89% 11% 28% 72% / 49% 30% 70% 51%;
+        }
+        20%{
+            border-radius: 89% 11% 70% 30% / 49% 26% 74% 51%;
+        }
+        40%{
+            border-radius: 9% 91% 70% 30% / 49% 26% 74% 51%;
+        }
+        60%{
+            border-radius: 9% 91% 70% 30% / 49% 86% 14% 51%;
+        }
+        80%{
+            border-radius: 44% 56% 86% 14% / 49% 91% 9% 51%;
+        }
+        100%{
+            border-radius: 89% 11% 28% 72% / 49% 30% 70% 51%;
+        }
+    }
+    .skills{
+        padding: 20px 40px;
+    
+    }
+    .skills .container{
+        padding: 15px;
+    }
+   
+}
+
+@media (max-width: 1000px){
+    
+    .banner{
+        height: 300px;
+        margin-top: 100px;
+        
+    }
+    .banner .textBox{
+        width: 60%;
+        height: inherit;
+        position: absolute;
+        background-color: transparent;
+        padding: 120px 50px;
+        left: 0;
+        
+    }
+    
+    .banner .textBox .text{
+        background-color: transparent;
+        color: whitesmoke;
+        display: grid;
+        line-height: 60px;
+    
+        
+    }
+    .text .hi-text{
+        font-size: 40px;
+        text-shadow: 0px 0px 0px 50px black;
+    }
+    .text .the-text{
+        font-size: 45px;
+        font-weight: 600;
+        font-style:normal;
+        text-transform: capitalize;
+        text-shadow: 0px 0px 5px black;
+    }
+    .text .web-text{
+        font-size: 35px;
+        font-weight: 650;
+        font-style:italic;
+    
+    }
+    .banner .imageBox{
+        position: relative;
+        width: 40%;
+        float: right;
+        height: inherit;
+        background-color: transparent;
+    }
+    
+    .banner .imageBox img{
+        width: 350px;
+        height: 400px;
+        margin: -50px -50px;
+        animation-name: imageborderchange;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+    }
+    @keyframes imageborderchange{
+        0%{
+            border-radius: 89% 11% 28% 72% / 49% 30% 70% 51%;
+        }
+        20%{
+            border-radius: 89% 11% 70% 30% / 49% 26% 74% 51%;
+        }
+        40%{
+            border-radius: 9% 91% 70% 30% / 49% 26% 74% 51%;
+        }
+        60%{
+            border-radius: 9% 91% 70% 30% / 49% 86% 14% 51%;
+        }
+        80%{
+            border-radius: 44% 56% 86% 14% / 49% 91% 9% 51%;
+        }
+        100%{
+            border-radius: 89% 11% 28% 72% / 49% 30% 70% 51%;
+        }
+    }
+    .skills{
+        padding: 20px 30px;
+    
+    }
+    skills .title{
+        font-size: 22px;
+    }
+    .skills .container{
+        padding: 15px;
+    }
+    skills .container .languageImage{
+        padding:5px;
+    }
+    .skills .container .languageImage img{
+        width: 200px;
+    }
+    .skills .languageText p{
+        padding: 20px 40px;
+        font-size: 18px;
+    }
+
+}
+
+@media (max-width: 700px){
+   
+    .banner{
+        height: 250px;
+        margin-top: 100px;
+        
+    }
+    .banner .textBox{
+        width: 60%;
+        height: inherit;
+        position: absolute;
+        background-color: transparent;
+        padding: 50px 20px;
+        left: 0;
+        
+    }
+    
+    .banner .textBox .text{
+        background-color: transparent;
+        color: whitesmoke;
+        display: grid;
+        line-height: 60px;
+    
+        
+    }
+    .text .hi-text{
+        font-size: 35px;
+        text-shadow: 0px 0px 0px 50px black;
+    }
+    .text .the-text{
+        font-size: 40px;
+        font-weight: 600;
+        font-style:normal;
+        text-transform: capitalize;
+        text-shadow: 0px 0px 5px black;
+    }
+    .text .web-text{
+        font-size: 30px;
+        font-weight: 650;
+        font-style:italic;
+        border: none;
+    
+    }
+    .sayHi{
+        display: block;
+    }
+    .banner .imageBox{
+        position: relative;
+        width: 40%;
+        float: right;
+        height: inherit;
+        background-color: transparent;
+    }
+    
+    .banner .imageBox img{
+        width: 200px;
+        height: 300px;
+        margin: -20px -20px ;
+        animation-name: imageborderchange;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+    }
+    @keyframes imageborderchange{
+        0%{
+            border-radius: 89% 11% 28% 72% / 49% 30% 70% 51%;
+        }
+        20%{
+            border-radius: 89% 11% 70% 30% / 49% 26% 74% 51%;
+        }
+        40%{
+            border-radius: 9% 91% 70% 30% / 49% 26% 74% 51%;
+        }
+        60%{
+            border-radius: 9% 91% 70% 30% / 49% 86% 14% 51%;
+        }
+        80%{
+            border-radius: 44% 56% 86% 14% / 49% 91% 9% 51%;
+        }
+        100%{
+            border-radius: 89% 11% 28% 72% / 49% 30% 70% 51%;
+        }
+    }
+    .skills{
+        padding: 20px;
+    
+    }
+    skills .title{
+        font-size: 20px;
+    }
+    .skills .container{
+        grid-template-columns: auto;
+        text-align: center;
+    }
+    .skills .languageText p{
+        padding: 10px 20px 0px 20px;
+        font-size: 14px;
+    }
+    .skills .container .languageText.two{
+        order: 2;
+    }
+    .skills .container .languageImage.two{
+        order: 1;
+    }
+    .callToAction{
+        display: block;
+    } 
+}

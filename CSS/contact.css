@@ -1,0 +1,216 @@
+body{
+    margin: 0px;
+    background-color: #171717;
+}
+.containers{
+    margin-top: 100px;
+    padding: 30px 100px;
+    contain: content;
+}
+.box1 .image{
+    width: 60%;
+    height: 350px;
+    float: left;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 6px 0px 0px 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.box1 b{
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(60, 60, 60, 0.8);
+    padding: 0px 15px;
+    border-radius: 3px;
+    color: whitesmoke;
+}
+.box1 .formBox{
+    width: 40%;
+    float: right;
+    height: 350px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 6px 6px 0px;
+}
+.box1 .formBox form{
+    width: 100%;
+    padding: 20px 10px;
+    display: grid;
+    row-gap: 15px;
+}
+.box1 .formBox form input{
+    height: 35px;
+    border-radius: 3px;
+    outline: none;
+    border: 2px solid black;
+    padding-left: 10px;
+    background-color: transparent;
+}
+.box1 .formBox form input::placeholder{
+    color: #171717;
+}
+.box1 .formBox form textarea{
+    border-radius: 3px;
+    outline: none;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: transparent;
+}
+.box1 .formBox form .buttonwrapper{
+    margin-top: 10px;
+    text-align: center;
+}
+.box1 .formBox form .buttonwrapper button{
+    padding: 7px 25px;
+    background-color: #171717;
+    color: whitesmoke;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.iconbox{
+    background-color: rgba(60, 60, 60, 0.7);
+    border-radius: 10px;
+    margin: 0px 10px 30px 10px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 15px;
+    row-gap: 15px;
+    padding: 20px 15px;
+}
+.iconbox div{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+}
+.iconbox div a{
+    text-decoration: none;
+}
+.iconbox div a i{
+    color: black;
+    font-size: 30px;
+    border-radius: 50%;
+    /* border:1px solid rgb(68, 64, 64); */
+    padding: 6px;
+    /* add hover to each icon */
+}
+a i{transition: all 0.3s linear;
+}
+a:hover i{
+    transform: scale(1.5);
+}
+.box1 i:hover{
+    color: rgb(51, 161, 51);
+    /* border-radius: 50%;
+    padding: 15px 5px; */
+}
+.box2 i:hover{
+    color: rgb(207, 107, 107);
+}
+.box3 i:hover{
+    color: rgb(72, 51, 167);
+   
+}
+.box4 i:hover{
+    color: teal;
+}
+
+footer{
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #464646;
+    border-width: 1px 0px 0px 0px;
+    margin-top: 30px;
+    display: none;
+}
+footer a{
+    text-decoration: underline;
+    color: whitesmoke;
+    font-size: 17px;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+footer a.foot{
+    margin-left: 50px;
+}
+
+@media(max-width:1200px){
+    .container{
+        padding: 30px 60px;
+    }
+    .box1 .image{
+        width: 50%;
+    }
+    .box1 .formBox{
+        width: 50%;
+    }
+    .box1 .image b{
+        font-size: 40px;
+    }
+    .iconbox div a i{
+        font-size: 27px;
+        padding: 5px;  
+    }
+}
+@media(max-width:900px){
+    .containers{
+        padding: 30px 70px;
+    }
+    .box1 .image{
+        width: 100%;
+        height: 150px;
+        background-position: center;
+        border-radius: 6px 6px 0px 0px;
+    }
+    .box1 .formBox{
+        width: 100%;
+        border-radius: 0px 0px 6px 6px;
+    }
+    .box1 .image b{
+        font-size: 35px;
+    }
+    .iconbox{
+        grid-template-columns: auto auto;
+        padding: 20px 10px;
+    }
+    .iconbox div a i{
+        font-size: 20px;
+    }
+    .iconbox div p{
+        font-size: 17px;
+    }
+
+}
+@media(max-width:700px){
+    .containers{
+        padding: 30px 20px;
+    }
+    .box1 image{
+        height: 120px;
+    }
+    .box1 .image b{
+        font-size: 30px;
+    }
+    .iconbox{
+        grid-template-columns: auto;
+    }
+    .iconbox div a i{
+        font-size: 22px;
+    }
+    .iconbox div p{
+        font-size: 16px;
+    }
+    footer{
+        display: block;
+    }
+
+}

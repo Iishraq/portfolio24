@@ -1,0 +1,44 @@
+portfolio website(name)
+1. Landing page
+	*navbar - Home link
+		- Bio
+		- Contact me
+		- Projects
+	*Banner - Our names 
+		- Personal pictures
+		- Description or intro
+	*Languages we are familair with.
+	*Footer - copyright
+		- Sitename
+2. Bio page
+	*Navbar - Home
+		- contact me
+		- project
+	*Profile
+		- Our picture
+		- Some personal info
+		- information and Aspiration
+3. Contact me page
+	*Navbar  - Home
+		- Bio 
+		- Project
+		- Link
+	*Contact Form - Message form
+		      - Social and Email link
+		      - Phone Number (option)
+	*Location - Google map
+		  - Address
+4. Project Page - List of an ongoing project and finished.
+
+
+
+Assets
+Two personal pictures
+Website names
+images of html, Css, Boostrap
+
+For the bio
+A short and comprehensive write up for our bio
+A list of Projects for projects page
+
+																		
